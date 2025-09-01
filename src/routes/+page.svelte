@@ -1,0 +1,53 @@
+<h1 class="text-5xl font-bold m-2">Welcome</h1>
+
+<p class="m-2">
+	This sample project shows how to use the{' '}
+	<a
+		class="underline text-blue-500 hover:bg-blue-200 rounded-full"
+		href="https://svelte.cloudinary.dev"
+		target="_blank"
+		rel="noopener noreferrer"
+	>
+		Cloudinary Svelte Community SDK
+	</a> with Svelte 5.
+</p>
+<div class="p-2">
+	The following pieces of functionality are exposed in this app:
+	<ul class="list-disc list-inside">
+		<li>
+			<a class="underline text-blue-500 hover:bg-blue-200 rounded-full" href="/upload-widget">
+				Upload (Upload Widget)
+			</a>
+			: shows an example implementation of the{' '}
+			<a
+				class="underline text-blue-500 hover:bg-blue-200 rounded-full"
+				href="https://cloudinary.com/documentation/upload_widget"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				Upload Widget
+			</a>.
+		</li>
+		<li>
+			<a class="underline text-blue-500 hover:bg-blue-200 rounded-full" href="/server-upload">
+				Server Endpoint Upload
+			</a>
+			: shows an example of how to use the{' '}
+			<a
+				class="underline text-blue-500 hover:bg-blue-200 rounded-full"
+				href="https://cloudinary.com/documentation/image_upload_api_reference"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				Upload API
+			</a>
+			via server-side code in SvelteKit.
+		</li>
+		<li>
+			<a class="underline text-blue-500 hover:bg-blue-200 rounded-full" href="/album">
+				Photo Album
+			</a>
+			: shows how to display images from a Cloudinary product environment.
+		</li>
+	</ul>
+</div>
