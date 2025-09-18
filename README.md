@@ -15,7 +15,6 @@ The sample project showcases the following functionality:
 Create a `.env` file with the following content at the root of the project:
 
 ```
-VITE_CLOUDINARY_CLOUD_NAME="your-cloud-name"
 PUBLIC_CLOUDINARY_CLOUD_NAME="your-cloud-name"
 PUBLIC_CLOUDINARY_UPLOAD_PRESET="name-of-upload-preset"
 PUBLIC_CLOUDINARY_API_KEY="your-cloudinary-api-key"
