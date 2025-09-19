@@ -10,16 +10,17 @@ The sample project showcases the following functionality:
 
 # Setup
 
-[Create an unsigned upload preset](https://cloudinary.com/documentation/upload_presets#creating_and_managing_upload_presets) in your Cloudinary product environment and make a note of the name of the unsigned upload preset as well as your Cloudinary cloud name.
+[Create an unsigned upload preset](https://cloudinary.com/documentation/upload_presets#creating_and_managing_upload_presets) in your Cloudinary product environment and make a note of the name of the unsigned upload preset as well as your Cloudinary cloud name. Please also add 'myphotoalbum-svelte' as a tag to the upload preset (this setting can be found under "Manage and Analyze").
 
 Create a `.env` file with the following content at the root of the project:
 
 ```
+VITE_CLOUDINARY_CLOUD_NAME="your-cloud-name"
 PUBLIC_CLOUDINARY_CLOUD_NAME="your-cloud-name"
 PUBLIC_CLOUDINARY_UPLOAD_PRESET="your-unsigned-upload-preset"
-PUBLIC_CLOUDINARY_TAG="myphotoalbum-svelte"
 CLOUDINARY_API_KEY="your-cloudinary-api-key"
 CLOUDINARY_API_SECRET="your-cloudinary-api-secret"
+PUBLIC_CLOUDINARY_TAG="myphotoalbum-svelte"
 ```
 
 # Run
@@ -29,7 +30,7 @@ From your terminal, in the root folder of your project, run:
 - `npm i`
 - `npm run dev`
 
-Then, click the localhost link to open the app in your browser, or open a browser and navigate to localhost:5§73 or to the port displayed in the terminal.
+Then, click the localhost link to open the app in your browser, or open a browser and navigate to localhost:5173 or to the port displayed in the terminal.
 
 Try uploading images using each of the upload tabs, then see your images displayed in the Photo Album tab.
 
