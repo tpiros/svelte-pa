@@ -34,7 +34,7 @@
 				<code
 					class="bg-black text-gray-100 px-2 py-1 rounded-md text-sm whitespace-normal overflow-auto break-words"
 				>
-					crop=crop
+					crop=fill
 				</code>.
 			</li>
 			<li>

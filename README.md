@@ -17,9 +17,9 @@ Create a `.env` file with the following content at the root of the project:
 ```
 PUBLIC_CLOUDINARY_CLOUD_NAME="your-cloud-name"
 PUBLIC_CLOUDINARY_UPLOAD_PRESET="your-unsigned-upload-preset"
+PUBLIC_CLOUDINARY_TAG="myphotoalbum-svelte"
 CLOUDINARY_API_KEY="your-cloudinary-api-key"
 CLOUDINARY_API_SECRET="your-cloudinary-api-secret"
-CLOUDINARY_TAG="myphotoalbum-svelte"
 ```
 
 # Run
